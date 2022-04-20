@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, rgb(3 1 41) 0% , rgb(86 8 144) 100%, rgba(0, 212, 255, 1) 100%);
-  color: rgb(250, 250, 250);
+  background: linear-gradient(0deg , rgb(3 1 41) 0% , rgb(86 8 144) 100% , rgba(0 , 212 , 255 , 1) 100%);
+  color: rgb(250 , 250 , 250);
   text-align: center;
   background-attachment: fixed;
   padding: 0;
@@ -29,7 +29,7 @@ input , button {
 
 button {
   height: 32px;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(250 , 250 , 250);
   color: rgb(82 7 139);
   cursor: pointer;
   border-radius: 4px;
@@ -70,12 +70,12 @@ li {
 }
 
 .selected {
-  background-color: rgb(67, 76, 89);
+  background-color: rgb(67 , 76 , 89);
 }
 
 .completed {
   text-decoration: line-through;
-  background-color: rgb(8, 174, 27);
+  background-color: rgb(8 , 174 , 27);
 }
 
 #adicionar-tarefa {
